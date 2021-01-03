@@ -34,6 +34,7 @@ a:hover {
 }
 .logo {
 	 padding-top:100px;
+   padding-bottom: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -44,37 +45,46 @@ a:hover {
 
 }
 
+@keyframes TransitionIn{
+  0%{ transform: scale(2, 2); }
+  25% { transform: scale(2,2); }
+  100% { transform: scale(.2,.2); }
 
+
+}
 #wlogo {
   margin-left: 0;
 
   display: block;
   position: fixed;
   width: 20%;
-  transform: scale(2, 2);
+  transform: scale(.2, .2);
   top: -30vh;
   left: 0;
   z-index: -1;
-  transition: transform 2s;
+ /* transition: transform 2s;*/
   padding: none;
-
+  animation:TransitionIn 4s; 
+  /*animation-delay: .5s;*/
 }
-#wlogo:hover {
+/*#wlogo:hover {
   transform: scale(.2,.2);
+  
 
   z-index: -2;
 
 }
-
+*/
 #BIO, #CALL {
   display: inline;
-  padding-top: 30px;
+ /* padding-top: 100px;
+  padding-left: 30px;*/
   padding-right: 85px;
   z-index: 7;
 }
 
 #BIO {
-  margin-left: 30vw;
+  margin-left: 37vw;
 
 
 }
@@ -84,14 +94,15 @@ a:hover {
 }
 .page {
 	color: green;
-	font-size:33px;
+	font-size:30px;
 	font-family: arial black;
 
 	/*padding: 30PX;*/
 	z-index: 11;
   display:block;
   border-left:30vw;
-  margin:auto;
+ /* margin:auto;*/
+ border-top: 60vh;
  
  
 }
