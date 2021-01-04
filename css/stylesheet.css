@@ -23,15 +23,7 @@ a:hover {
 }
 
 
-#circle{
-  position:fixed;
-  transform: scale(.1,.1);
-/*  transform:translate(-50%,-50%);*/
-  height:35px;
-  width:35px;
- /* border-radius:50%;*/
-/*  border:2px solid black;*/
-}
+
 .logo {
 	/* padding-top:100px;*/
    position:absolute;
@@ -45,44 +37,35 @@ a:hover {
 }
 
 @keyframes TransitionIn{
-  0%{ transform: scale(2, 2); }
-  25% { transform: scale(2,2); }
-  100% { transform: scale(.2,.2); }
+  0%{ transform: scale(6, 6); }
+  25% { transform: scale(6,6); }
+  100% { transform: scale(.5,.5); transform: translate(0,0);}
 
 
 }
-#wlogo {
+#wlogo img{
  /* margin-left: 0;
 
   display: block;
   position: fixed;
   width: 20%;*/
-  transform: scale(.2, .2);
+  transform: scale(.5, .5);
+  transform: translate(0,0);
   /*top: -30vh;
   left: 0;*/
-  z-index: -1;
+
  /* transition: transform 2s;*/
 /*  padding: none;*/
   animation:TransitionIn 4s; 
-  /*animation-delay: .5s;*/
-
-
    position:fixed;
-    top:0;
+   /* top:0;
     left:0;
     right:0;
     bottom:0;
-    margin:auto;
-    display: block;
+    margin:auto;*/
+    /*display: block;*/
 }
-/*#wlogo:hover {
-  transform: scale(.2,.2);
-  
 
-  z-index: -2;
-
-}
-*/
 /*#BIO, #CALL {
   display: inline;*/
  /* padding-top: 100px;
@@ -104,20 +87,20 @@ a:hover {
 	color: green;
 	font-size:30px;
 	font-family: arial black;
+ /* text-align: center;*/
 
 	/*padding: 30PX;*/
 	/*z-index: 11;*/
-  display:block;
+  /*display:block;*/
   /*border-left:30vw;*/
  /* margin:auto;*/
 /* border-top: 60vh;*/
 
-  position:absolute;
-    top:0;
-    left:0;
-    right:0;
+  position:fixed;
+  left: auto;
+  right: auto;
     bottom:0;
-    margin:auto;
+    
  
  
 }
