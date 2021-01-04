@@ -74,16 +74,22 @@ a:hover {
 /*  z-index: 7;
 }
 */
-/*#BIO {
+#BIO {
   margin-left: 37vw;
+  bottom: 0;
+  position: absolute;
 
 
-}*/
+}
 
 #CALL {
-  /*margin-left: 40vw;*/
+  margin-left: 53vw;
+  bottom: 0;
+  position: absolute;
 }
 .page {
+  margin: auto;
+  padding: none;
 	color: green;
 	font-size:30px;
 	font-family: arial black;
@@ -97,7 +103,7 @@ a:hover {
 /* border-top: 60vh;*/
 
   /*position:fixed;*/
- text-align: center;
+/* text-align: center;*/
     z-index: 10;
     bottom: 0;
  
