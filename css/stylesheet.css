@@ -33,15 +33,13 @@ a:hover {
 /*  border:2px solid black;*/
 }
 .logo {
-	 padding-top:100px;
-   padding-bottom: 40px;
-  display: block;
-  margin-left: auto;
-  margin-top: auto;
-  margin-right: auto;
-  width: 40%;
-  z-index: -1;
- 
+	/* padding-top:100px;*/
+   position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
   
 
 }
