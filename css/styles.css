@@ -41,7 +41,7 @@ a:hover {
   width: 15vw;
   padding-top: 30px;
   padding-left: 20px;
-   font-family: arial black;
+   font-family: arial black, arial, sans-serif;
   color: green;
    font-size: 1.2em;
      text-decoration: none;
@@ -77,7 +77,7 @@ a:hover {
 
 .BIO{
   text-align: center;
-  font-family: arial black;
+  font-family: arial black, arial, sans-serif;
   font-size: 1.2em;
 }
 
