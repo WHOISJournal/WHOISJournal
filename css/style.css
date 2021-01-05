@@ -113,11 +113,15 @@ a:visited{
     font-family: arial;
   color: green;
   padding-top: 30px;
-  padding-left: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
   position: absolute;
-  font-size: 18px;
+  font-size: 17px;
   border-left: 1px solid #A9A9A9;
   height: 100vh;
+/*  border:10px solid #f7f4ae;*/
+ /**/
+
 
 }
 
@@ -130,7 +134,10 @@ a:visited{
 
 }
 
-
+.prompt, .link {
+  text-align: center;
+  display: block;
+}
 
 .hoverRTC {
   position: fixed;
@@ -201,7 +208,9 @@ a:visited{
  
 }
  
- .websites {
+ .websites a:link, a:visited{
 
   line-height: 150%;
+  
  }
+
