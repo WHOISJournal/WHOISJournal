@@ -136,7 +136,7 @@ a:hover {
  padding: 30px;
   font-size: 30px;
   font-family: arial;
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
 }
 
 .box {
