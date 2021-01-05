@@ -134,10 +134,7 @@ a:visited{
 
 }
 
-.prompt, .link {
-  text-align: center;
-  display: block;
-}
+/*s*/
 
 .hoverRTC {
   position: fixed;
